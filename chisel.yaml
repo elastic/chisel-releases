@@ -4,4 +4,4 @@ archives:
     ubuntu:
         version: 22.04
         components: [main, universe]
-        suites: [jammy, jammy-security, jammy-updates]
+        suites: [jammy, jammy-security]
