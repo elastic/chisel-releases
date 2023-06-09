@@ -1,0 +1,6 @@
+package: debianutils
+
+slices:
+  bins:
+    contents:
+      /usr/bin/which.debianutils:

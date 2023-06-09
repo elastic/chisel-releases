@@ -1,0 +1,14 @@
+package: python3-minimal
+
+slices:
+  bins:
+    essential:
+      - libc6_libs
+      - libcap2_libs
+      - libgcrypt20_libs
+      - liblz4-1_libs
+      - liblzma5_libs
+      - libzstd1_libs
+      - libexpat1_libs
+    contents:
+      /usr/bin/python3:

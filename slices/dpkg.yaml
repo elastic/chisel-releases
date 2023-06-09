@@ -1,0 +1,33 @@
+package: dpkg
+
+slices:
+  bins:
+    essential:
+      - libc6_config
+      - libc6_libs
+      - libc-bin_bins
+      - libselinux1_libs
+      - libpcre2-8-0_libs
+      - libacl1_libs
+      - coreutils_bins
+      - tar_bins
+      - init-system-helpers_bins
+      - perl-base_bins
+      - perl-base_libs
+      - bash_bins
+      - libattr1_libs
+      - sed_bins
+      - libsqlite3-0_libs
+      - libreadline8_libs
+      - libassuan0_libs
+      - findutils_bins
+      - libksba8_libs
+      - debianutils_bins
+      - grep_bins
+    contents:
+      /usr/bin/dpkg*:
+      /sbin/start-stop-daemon*:
+      /usr/bin/update-alternatives:
+  config:
+    contents:
+      /usr/share/dpkg/*:

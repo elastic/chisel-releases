@@ -1,0 +1,7 @@
+package: diffutils
+
+slices:
+  bins:
+    contents:
+      /usr/bin/diff:
+      /usr/bin/cmp:
