@@ -1,0 +1,43 @@
+package: apt
+
+slices:
+  bins:
+    essential:
+      - libc6_config
+      - libc6_libs
+      - libstdc++6_libs
+      - libssl3_libs
+      - libsystemd0_libs
+      - libwrap0_libs
+      - openssl_config
+      - libbz2-1.0_libs
+      - zlib1g_libs
+      - libapt-pkg6.0_libs
+      - libmd0_libs
+      - dpkg_bins
+      - dpkg_config
+      - libudev1_libs
+      - libxxhash0_libs
+      - libseccomp2_libs
+      - libgnutls30_libs
+      - libp11-kit0_libs
+      - libidn2-0_libs
+      - libunistring2_libs
+      - libtasn1-6_libs
+      - libnettle8_libs
+      - libhogweed6_libs
+      - libgmp10_libs
+      - libffi8_libs
+      - ubuntu-keyring_config
+      - gpgv_bins
+      - gpg_bins
+      - diffutils_bins
+    contents:
+      /usr/bin/apt*:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libapt-private.so*:
+      /usr/lib/apt/methods/*:
+  config:
+    contents:
+      /etc/apt/apt.conf.d/*:

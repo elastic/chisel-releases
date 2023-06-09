@@ -1,0 +1,8 @@
+package: libapt-pkg6.0
+
+slices:
+  libs:
+    essential:
+      - libc6_libs
+    contents:
+      /usr/lib/*-linux-*/libapt-pkg*so.*:

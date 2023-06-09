@@ -1,0 +1,8 @@
+package: libidn2-0
+
+slices:
+  libs:
+    essential:
+      - libc6_libs
+    contents:
+      /usr/lib/*-linux-*/libidn2.so.0*:

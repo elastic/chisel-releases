@@ -1,0 +1,9 @@
+package: libc-bin
+
+slices:
+  bins:
+    contents:
+      /sbin/ldconfig:
+      /sbin/ldconfig.real:
+      /usr/bin/getent:
+      /usr/bin/locale:
