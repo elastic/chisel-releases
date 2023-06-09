@@ -1,0 +1,10 @@
+package: tar
+
+slices:
+  bins:
+    essential:
+      - libc6_config
+      - libc6_libs
+      - libstdc++6_libs
+    contents:
+      /bin/tar:
