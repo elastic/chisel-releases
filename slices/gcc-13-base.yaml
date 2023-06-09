@@ -1,0 +1,6 @@
+package: gcc-13-base
+
+slices:
+  data:
+    contents:
+      /usr/share/doc/gcc-13-base/*:

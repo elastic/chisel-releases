@@ -1,0 +1,6 @@
+package: usr-is-merged
+
+slices:
+  data:
+    contents:
+      /usr/share/doc/usr-is-merged/*:

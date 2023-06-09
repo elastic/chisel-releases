@@ -9,6 +9,7 @@ slices:
       - base-files_tmp
       - base-files_var
       - base-files_home
+      - gawk_bins
 
   etc:
     contents:

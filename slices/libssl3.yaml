@@ -4,6 +4,7 @@ slices:
   libs:
     essential:
       - libc6_libs
+      - debconf_bins
     contents:
       /usr/lib/*-linux-*/engines-3/afalg.so:
       /usr/lib/*-linux-*/engines-3/loader_attic.so:

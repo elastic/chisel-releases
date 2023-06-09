@@ -1,0 +1,6 @@
+package: readline-common
+
+slices:
+  data:
+    contents:
+      /usr/share/readline/*:

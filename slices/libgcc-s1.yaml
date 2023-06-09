@@ -4,5 +4,6 @@ slices:
   libs:
     essential:
       - libc6_libs
+      - gcc-13-base_data
     contents:
       /lib/*-linux-*/libgcc_s.so.*:

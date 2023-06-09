@@ -2,6 +2,8 @@ package: base-passwd
 
 slices:
   data:
+    essential:
+      - libdebconfclient0_libs
     contents:
       /usr/share/base-passwd/group.master:  {until: mutate}
       /usr/share/base-passwd/passwd.master: {until: mutate}

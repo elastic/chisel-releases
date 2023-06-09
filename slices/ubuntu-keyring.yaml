@@ -1,0 +1,11 @@
+package: ubuntu-keyring
+
+slices:
+  bins:
+    essential:
+      - libc6_config
+      - libc6_libs
+  config:
+    contents:
+      /etc/apt/trusted.gpg.d/**:
+      /usr/share/keyrings/**:

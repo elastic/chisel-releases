@@ -1,0 +1,14 @@
+package: libpython3.11
+
+slices:
+  libs:
+    essential:
+      - libc6_libs
+      - libcap2_libs
+      - libgcrypt20_libs
+      - liblz4-1_libs
+      - liblzma5_libs
+      - libzstd1_libs
+    contents:
+      /usr/lib/python3.11/config-3.11-x86_64-linux-gnu/libpython3.11.so:
+      /usr/lib/*-linux-*/libpython3*:

@@ -1,0 +1,12 @@
+package: init-system-helpers
+
+slices:
+  bins:
+    essential:
+      - libc6_config
+      - libc6_libs
+      - libstdc++6_libs
+      - usr-is-merged_data
+    contents:
+      /usr/bin/deb-systemd-*:
+      /usr/sbin/*-rc.d*:

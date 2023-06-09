@@ -1,0 +1,13 @@
+package: python3.11-venv
+
+slices:
+  libs:
+    essential:
+      - libc6_libs
+      - libcap2_libs
+      - libgcrypt20_libs
+      - liblz4-1_libs
+      - liblzma5_libs
+      - libzstd1_libs
+    contents:
+      /usr/lib/python3.11/**:

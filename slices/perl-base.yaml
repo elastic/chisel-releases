@@ -1,0 +1,12 @@
+package: perl-base
+
+slices:
+  bins:
+    essential:
+      - libc6_config
+      - libc6_libs
+    contents:
+      /usr/bin/perl*:
+  libs:
+    contents:
+      /usr/lib/*-linux-gnu/perl-base/**:

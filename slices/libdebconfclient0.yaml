@@ -1,0 +1,8 @@
+package: libdebconfclient0
+
+slices:
+  libs:
+    essential:
+      - libc6_libs
+    contents:
+      /usr/lib/*-linux-*/libdebconfclient.so.0*:
