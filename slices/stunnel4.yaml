@@ -1,0 +1,27 @@
+package: stunnel4
+
+slices:
+  bins:
+    essential:
+      - libc6_libs
+      - libc6_config
+      - libssl3_libs
+      - openssl_config
+      - libgssapi-krb5-2_libs
+      - libtirpc3_libs
+      - libgpg-error0_libs
+      - libcom-err2_libs
+      - liblzma5_libs
+      - libcap2_libs
+      - libgpg-error0_libs
+      - libkeyutils1_libs
+      - liblz4-1_libs
+      - libsystemd0_libs
+      - libwrap0_libs
+      - libzstd1_libs
+      - libgcrypt20_libs
+      - libnsl2_libs
+      - libgcc-s1_libs
+    contents:
+      /usr/bin/stunnel3:
+      /usr/bin/stunnel4:

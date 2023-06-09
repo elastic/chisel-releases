@@ -1,8 +1,8 @@
-package: libkeyutils1
+package: libgcrypt20
 
 slices:
   libs:
     essential:
       - libc6_libs
     contents:
-      /lib/*-linux-*/libkeyutils.so.1*:
+      /usr/lib/*-linux-*/libgcrypt.so.20*:

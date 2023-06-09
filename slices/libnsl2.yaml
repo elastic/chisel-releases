@@ -1,8 +1,8 @@
-package: libkeyutils1
+package: libnsl2
 
 slices:
   libs:
     essential:
       - libc6_libs
     contents:
-      /lib/*-linux-*/libkeyutils.so.1*:
+      /usr/lib/*-linux-*/libnsl.so.2*:

@@ -1,8 +1,8 @@
-package: libkeyutils1
+package: libcap2
 
 slices:
   libs:
     essential:
       - libc6_libs
     contents:
-      /lib/*-linux-*/libkeyutils.so.1*:
+      /lib/*-linux-*/libcap.so.2*:

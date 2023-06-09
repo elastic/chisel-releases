@@ -1,8 +1,8 @@
-package: libkeyutils1
+package: libwrap0
 
 slices:
   libs:
     essential:
       - libc6_libs
     contents:
-      /lib/*-linux-*/libkeyutils.so.1*:
+      /usr/lib/*-linux-*/libwrap.so.0*:
